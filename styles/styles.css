@@ -1,18 +1,38 @@
-main{
-    max-width: 840px;
-}
-
-aside{
+main {
+    max-width: 840px; /* Limit the width of the main content */
+  }
+  
+  aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0,0,0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Transparent black border */
     padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
-}
-
-nav {
+  }
+  
+  aside img {
+    width: 200px;
+    height: auto;
+  }
+  
+  main img {
+    width: 150px;
+    height: auto;
+  }
+  
+  p {
+    padding: 0; /* Removes padding */
+  }
+  
+  footer {
+    margin-top: 15px; /* Adds space between main content and footer */
+    border-top: 1px solid #000; /* Adds a top border */
+    text-align: center; /* Centers the text in the footer */
+  }
+  
+  nav {
     background-color: #333;
     padding: 10px;
   }
@@ -22,23 +42,4 @@ nav {
     text-decoration: none;
     padding: 10px;
   }
-
- aside img{
-    width: 200px;
-    height: auto;
- }
-
- main img{
-    width: 150px;
-    height: auto;
- }
-
- p{
-    padding: 0;
- }
-
- footer{
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
- }
+  
