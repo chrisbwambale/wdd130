@@ -12,12 +12,12 @@ aside{
     text-align:center;
 }
 
-.nav {
+.nav{
     background-color: #333;
     padding: 10px;
 }
   
-nav a {
+nav a{
     color: white;
     text-decoration: none;
     padding: 10px;
@@ -30,12 +30,9 @@ aside img{
 
 main img{
     width: 150px;
-    height: auto;
-}
+    height: auto;}
 
-p{
-    padding: 0;
-}
+p{padding: 0;}
 
 footer{
     margin-top: 15px;
