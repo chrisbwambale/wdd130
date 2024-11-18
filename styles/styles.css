@@ -22,7 +22,7 @@ nav {
     text-decoration: none;
     padding: 10px;
   }
-  
+
  aside img{
     width: 200px;
     height: auto;
@@ -35,4 +35,10 @@ nav {
 
  p{
     padding: 0;
+ }
+
+ footer{
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
  }
